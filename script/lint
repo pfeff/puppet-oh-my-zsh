@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+DIR=$(dirname "$0")
+$DIR/cardboard-exec $(basename $0)
+
